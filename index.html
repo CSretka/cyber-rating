@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Киберспортивный Рейтинг</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background-color: #f8f9fa;
+      color: #222;
+    }
+    h1, h2 {
+      text-align: center;
+    }
+    .section {
+      max-width: 1000px;
+      margin: 2rem auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    th, td {
+      padding: 0.75rem;
+      border-bottom: 1px solid #ddd;
+      text-align: left;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+    tr:hover {
+      background-color: #f1f1f1;
+    }
+    .note {
+      font-style: italic;
+      color: #666;
+      text-align: center;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="section">
+    <h1>Рейтинг киберспортсменов</h1>
+    <p class="note">Проект создан с помощью <strong>TG Rosters</strong></p>
+
+    <h2>Топ-95 игроков</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Игрок</th>
+          <th>Очки</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Игроки -->
+        <script>
+          const players = [
+            "Fade","Xenoxz","Dani","Madper","Flim","Zandor","Wewevof","bleaff","hedwig","zaiko",
+            "Mikus","Yoshimura","Danone","Chieva","Sankidd","Mabo","Jyro","Silent","Shafir","Bloody",
+            "Lucas","Lorex","Campion","Frank","Xineos","Rashen","Уго","Amka","Yarch","Switch",
+            "Zink","Xazz","Clash","Hatacke","Zeleek","Nobita","Outplayer","Dezeent","Ratik","Саньок",
+            "Retka","Sadeo","Sentinel","Maz Bez","Snow","Пингвин","Timoxa","Ronax","Lewry","Кирилл",
+            "Chiru","Perfection","DarkMaster","Zmexcix","Zak","Maksimka","Kyami","Jesse pinkman",
+            "Makaron","Gotteally","Готтеали","Fayger","Wolfor","Dragon","Astit","lostee","Weox",
+            "Beliver","Undertaker","Evilboy","Zobik","Gargadan","Leon","KsiRix","Forever","Kurami",
+            "Cloudy","Exciting","Owen","An1sh","Zaktempo","Meloyy","Decruel","Simple kay",
+            "Егорка Прайм","slite","patriot","calvin klein","Forever","Warent","Tasherka","Heltoxx",
+            "Goodmart","Hope","Skrill"
+          ];
+          players.forEach((name, index) => {
+            document.write(`<tr><td>${index + 1}</td><td>${name}</td><td>–</td></tr>`);
+          });
+        </script>
+      </tbody>
+    </table>
+
+    <h2>Топ команд</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Команда</th>
+          <th>Очки</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>AGS Fantasy</td><td>–</td></tr>
+        <tr><td>2</td><td>Brave Beavers</td><td>–</td></tr>
+        <tr><td>3</td><td>ChurkaSquad</td><td>–</td></tr>
+        <tr><td>4</td><td>F/A Crabs</td><td>–</td></tr>
+        <tr><td>5</td><td>F/A Peremoga</td><td>–</td></tr>
+        <tr><td>6</td><td>Глисты</td><td>–</td></tr>
+        <tr><td>7</td><td>Goodmart</td><td>–</td></tr>
+        <tr><td>8</td><td>hQd academy</td><td>–</td></tr>
+        <tr><td>9</td><td>Hope</td><td>–</td></tr>
+        <tr><td>10</td><td>Ironclad</td><td>–</td></tr>
+        <tr><td>11</td><td>LCG</td><td>–</td></tr>
+        <tr><td>12</td><td>Lunacy</td><td>–</td></tr>
+        <tr><td>13</td><td>MBT Summit</td><td>–</td></tr>
+        <tr><td>14</td><td>Natare six</td><td>–</td></tr>
+        <tr><td>15</td><td>Oguzki</td><td>–</td></tr>
+        <tr><td>16</td><td>Paurigon-Z Academy</td><td>–</td></tr>
+        <tr><td>17</td><td>Paurigon-Z emea</td><td>–</td></tr>
+        <tr><td>18</td><td>Петухи</td><td>–</td></tr>
+        <tr><td>19</td><td>Pon</td><td>–</td></tr>
+        <tr><td>20</td><td>Pride</td><td>–</td></tr>
+        <tr><td>21</td><td>Quest gaiming</td><td>–</td></tr>
+        <tr><td>22</td><td>RPG</td><td>–</td></tr>
+        <tr><td>23</td><td>Salad Drip</td><td>–</td></tr>
+        <tr><td>24</td><td>Sky gaiming</td><td>–</td></tr>
+        <tr><td>25</td><td>Timbaumba</td><td>–</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
